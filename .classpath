@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="lab2"/>
+	<classpathentry kind="src" path="lab3"/>
+	<classpathentry kind="src" path="lab4"/>
+	<classpathentry kind="src" path="lab5"/>
+	<classpathentry kind="src" path="lab4test"/>
+	<classpathentry kind="src" path="lab5test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/home/eduardo/Downloads/easyaccept.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
