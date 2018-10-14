@@ -9,6 +9,8 @@
 	<classpathentry kind="src" path="lab3test"/>
 	<classpathentry kind="src" path="Prova2"/>
 	<classpathentry kind="src" path="Prova2test"/>
+	<classpathentry kind="src" path="Prova3-2017.2"/>
+	<classpathentry kind="src" path="Prova3-2017.2test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="/home/eduardo/Downloads/easyaccept.jar"/>
