@@ -78,12 +78,12 @@ public class ClubeDoLivro {
 		ObjectOutputStream gravaObject;
 
 		try {
-			gravaObject = new ObjectOutputStream(new FileOutputStream("src" + File.separator + "dados.txt"));
+			gravaObject = new ObjectOutputStream(new FileOutputStream("ProvaAnterior3" + File.separator + "dados.txt"));
 			gravaObject.writeObject(this.livros);
 			gravaObject.close();
 
 		} catch (IOException e) {
-			throw new IOException("Deu merda!");
+			throw new IOException("Problem!");
 
 		}
 
@@ -94,7 +94,7 @@ public class ClubeDoLivro {
 		FileInputStream b;
 
 		try {
-			b = new FileInputStream("src" + File.separator + "dados.txt");
+			b = new FileInputStream("ProvaAnterior3" + File.separator + "dados.txt");
 			a = new ObjectInputStream(b);
 			Object obj = a.readObject();
 			Map<String, Livro> livros = (HashMap<String, Livro>) obj;
@@ -102,7 +102,7 @@ public class ClubeDoLivro {
 			a.close();
 
 		} catch (IOException e) {
-			throw new IOException("Deu merda!");
+			throw new IOException("Problem!");
 
 		}
 	}
