@@ -78,7 +78,7 @@ public class Eliane {
 	}
 
 	public int recuperaCustoPacotao(int idPacotao) {
-		return this.pacotes.get(idPacotao).recuperaCusto();
+		return this.pacotes.get(idPacotao).retornaCusto();
 
 	}
 

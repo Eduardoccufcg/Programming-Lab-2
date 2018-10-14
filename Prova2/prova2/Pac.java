@@ -3,16 +3,14 @@ package prova2;
 public class Pac extends Encomenda{
 	
 	private int peso;
-	private int id;
 	
-
-
 	public Pac(int peso, int id) {
+		super(id);
 		if(peso < 0) {
 			throw new IllegalArgumentException();
 		}
 		this.peso = peso;
-		this.id = id;
+		
 	}
 
 

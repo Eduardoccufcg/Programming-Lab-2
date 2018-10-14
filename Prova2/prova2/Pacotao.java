@@ -4,17 +4,17 @@ import java.util.HashSet;
 
 import java.util.Set;
 
-public class Pacotao {
+public class Pacotao extends Encomenda {
 	
 	private Set<Encomenda> encomendas;
-	int id;
 
 	public Pacotao(int id) {
 		
-		this.id = id;
+		super(id);
 		this.encomendas = new HashSet<>();
 	}
-	public int recuperaCusto() {
+	@Override
+	public int retornaCusto() {
 		int custo = 0;
 		
 		for (Encomenda encomenda : this.encomendas) {
@@ -33,6 +33,10 @@ public class Pacotao {
 		}
 		return false;
 		
+	}
+	@Override
+	public String toString() {
+		return this.id + " Pacotão " + retornaCusto();
 	}
 	
 

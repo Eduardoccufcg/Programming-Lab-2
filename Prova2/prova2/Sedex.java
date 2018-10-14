@@ -4,8 +4,7 @@ public class Sedex extends Encomenda {
 
 	int peso;
 	int volume;
-	int id;
-
+	
 	@Override
 	public String toString() {
 		return this.id + " - " + this.peso + " kg " + this.volume + " m3";
@@ -13,12 +12,12 @@ public class Sedex extends Encomenda {
 	}
 
 	public Sedex(int id, int peso, int volume) {
+		super(id);
 		if (peso < 0 || volume < 0) {
 			throw new IllegalArgumentException();
 		}
 			this.peso = peso;
 		this.volume = volume;
-		this.id = id;
 	}
 
 	@Override
