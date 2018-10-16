@@ -1,5 +1,5 @@
-package lab5;
-
+package lab5test;
+import lab5.*;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

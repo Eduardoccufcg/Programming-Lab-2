@@ -1,5 +1,5 @@
-package prova320172;
-
+package prova3test;
+import prova320172.*;
 import static org.junit.Assert.*;
 
 import org.junit.Before;

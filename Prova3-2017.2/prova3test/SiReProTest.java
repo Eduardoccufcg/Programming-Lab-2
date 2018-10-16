@@ -1,5 +1,6 @@
-package prova320172;
+package prova3test;
 
+import prova320172.*;
 import static org.junit.Assert.*;
 
 import java.io.IOException;
@@ -132,7 +133,7 @@ public class SiReProTest {
 
 	@Test
 	public void testResolverProblemaHabilidadeProfissionalExperienciaMenor7() throws IOException {
-		this.sirepro.cadastrarPessoa("Eduardo",6 ,6 ,6 );
+		this.sirepro.cadastrarPessoa("Eduardo", 6, 6, 6);
 		this.sirepro.ativarHabilidade("Eduardo", "profissional");
 		this.sirepro.resolverProblema("Eduardo", 7);
 		this.sirepro.resolverProblema("Eduardo", 8);

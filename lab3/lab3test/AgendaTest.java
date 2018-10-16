@@ -1,4 +1,5 @@
-package lab3;
+package lab3test;
+import lab3.*;
 
 import static org.junit.Assert.*;
 
