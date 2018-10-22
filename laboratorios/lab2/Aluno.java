@@ -39,7 +39,7 @@ public class Aluno {
     private Saude saude;
     
     /**
-     * Constroí um aluno a partir de seu nome.
+     * Constroi um aluno a partir de seu nome.
      * @param aluno nome do aluno
      */
     public Aluno(String aluno){
